@@ -1,5 +1,3 @@
-.PHONY: all comp run clean fsdb
-
 vcs_files := dut.v
 
 VCS_COMPILE_OPTS := +v2k -sverilog -debug_access+pp -timescale=1ps/1ps -full64
